@@ -13,38 +13,34 @@
   <body>
     <!-- Navbar Section -->
     <header>
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
-        <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3" id="navbar">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">Nikolai Andrei Calizar</a>
           <button
-            class="navbar-toggler d-lg-none"
+            class="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
-            data-bs-target="#collapsibleNavId"
-            aria-controls="collapsibleNavId"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="collapsibleNavId">
-            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  href="#about-section"
-                  aria-current="page"
-                  >About <span class="visually-hidden">(current)</span></a
-                >
+                <a class="nav-link mx-2" href="#">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#services-section">Services</a>
+                <a class="nav-link mx-2" href="#services-section">Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects-section">Projects</a>
+                <a class="nav-link mx-2" href="#projects-section">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact-section">Contact</a>
+                <a class="nav-link mx-2" href="#contact-section">Contact</a>
               </li>
             </ul>
           </div>
@@ -54,7 +50,7 @@
     <!-- End of Navbar Section-->
 
     <!-- Main Content Section -->
-    <main>
+    <main class="text-white">
       <div class="container text-center" id="main-container">
         <div class="row">
           <div class="container">
@@ -71,18 +67,27 @@
                       front-end and back-end development. My journey in this
                       field has allowed me to work on a variety of projects,
                       tackling challenges and overcoming obstacles to ensure
-                      successful implementation and deployment. My strength lies
-                      in problem-solving, adaptability, and collaboration,
-                      enabling me to communicate effectively within teams and
-                      translate project requirements into functional
-                      applications. I am committed to continuous learning and
-                      improvement, keeping myself updated with the latest
-                      industry trends and technologies. My approach is
-                      results-oriented, focusing on delivering solutions that
-                      meet both user needs and business objectives. I am
-                      passionate about development and always eager to create
-                      innovative and impactful solutions that contribute to the
-                      success of the team and the organization.
+                      successful implementation and deployment.
+                    </p>
+                  </div>
+                  <div class="row">
+                    <p class="lead text-start">
+                      My strength lies in problem-solving, adaptability, and
+                      collaboration, enabling me to communicate effectively
+                      within teams and translate project requirements into
+                      functional applications. I am committed to continuous
+                      learning and improvement, keeping myself updated with the
+                      latest industry trends and technologies.
+                    </p>
+                  </div>
+                  <div class="row">
+                    <p class="lead text-start">
+                      My approach is results-oriented, focusing on delivering
+                      solutions that meet both user needs and business
+                      objectives. I am passionate about development and always
+                      eager to create innovative and impactful solutions that
+                      contribute to the success of the team and the
+                      organization.
                     </p>
                   </div>
                 </div>
@@ -95,51 +100,60 @@
             <div class="row">
               <section id="services-section">
                 <div class="container text-center">
-                  <h1 class="display-1">My Services</h1>
-                  <div class="card">
-                    <div class="card-header">
-                      <strong class="h2">Front-End Development</strong>
-                    </div>
-                    <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        <p>
-                          I have expertise in front-end languages such as HTML,
-                          CSS/SCSS, Bootstrap, JavaScript, Node.js, and
-                          React.js. I focus on creating user-friendly interfaces
-                          that enhance the performance of your applications
-                        </p>
-                      </blockquote>
+                  <div class="row">
+                    <h1 class="display-1">My Services</h1>
+                  </div>
+                  <div class="row">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong class="h2">Front-End Development</strong>
+                      </div>
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p>
+                            I have expertise in front-end languages such as
+                            HTML, CSS/SCSS, Bootstrap, JavaScript, Node.js, and
+                            React.js. I focus on creating user-friendly
+                            interfaces that enhance the performance of your
+                            applications
+                          </p>
+                        </blockquote>
+                      </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <strong class="h2">Back-End Development</strong>
-                    </div>
-                    <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        <p>
-                          I am proficient in handling server-side applications
-                          and APIs. I use programming languages and frameworks
-                          like Python, PHP, SQL, Java, Node.js, and Laravel to
-                          build robust and scalable back-ends
-                        </p>
-                      </blockquote>
+                  <div class="row">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong class="h2">Back-End Development</strong>
+                      </div>
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p>
+                            I am proficient in handling server-side applications
+                            and APIs. I use programming languages and frameworks
+                            like Python, PHP, SQL, Java, Node.js, and Laravel to
+                            build robust and scalable back-ends
+                          </p>
+                        </blockquote>
+                      </div>
                     </div>
                   </div>
-                  <div class="card">
-                    <div class="card-header">
-                      <strong class="h2">API Integration</strong>
-                    </div>
-                    <div class="card-body">
-                      <blockquote class="blockquote mb-0">
-                        <p>
-                          I provide custom web API and integration services. I
-                          offer complete web API development services that help
-                          ensure the smooth functioning of your solutions. If
-                          required, I can build custom APIs for external
-                          applications
-                        </p>
-                      </blockquote>
+                  <div class="row">
+                    <div class="card">
+                      <div class="card-header">
+                        <strong class="h2">API Integration</strong>
+                      </div>
+                      <div class="card-body">
+                        <blockquote class="blockquote mb-0">
+                          <p>
+                            I provide custom web API and integration services. I
+                            offer complete web API development services that
+                            help ensure the smooth functioning of your
+                            solutions. If required, I can build custom APIs for
+                            external applications
+                          </p>
+                        </blockquote>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -152,7 +166,105 @@
             <div class="row">
               <section id="projects-section">
                 <div class="container text-center">
-                  <h1 class="display-1">My Projects</h1>
+                  <div class="row">
+                    <h1 class="display-1">My Projects</h1>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="card mb-3" style="max-width: 540px">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img
+                              src="..."
+                              class="img-fluid rounded-start"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Milktea Shop</h5>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-3" style="max-width: 540px">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img
+                              src="..."
+                              class="img-fluid rounded-start"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">Smartify</h5>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <div class="card mb-3" style="max-width: 540px">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img
+                              src="..."
+                              class="img-fluid rounded-start"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">CrossRoads</h5>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card mb-3" style="max-width: 540px">
+                        <div class="row g-0">
+                          <div class="col-md-4">
+                            <img
+                              src="..."
+                              class="img-fluid rounded-start"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title">GUI Calculator</h5>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </section>
             </div>
@@ -163,7 +275,7 @@
     <!-- End of Main Content Section -->
 
     <!-- Footer Section -->
-    <footer class="bg-dark text-center py-3">
+    <footer class="bg-dark text-center py-3" id="contact-section">
       <div class="container py-2">
         <section class="mb-4">
           <!-- Facebook -->

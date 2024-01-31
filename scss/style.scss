@@ -2,9 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;500;600;700;800&display=swap");
 
 body {
-    background-color: #2b184e;
+    background-color: #170930;
     font-family: "JetBrains Mono", monospace;
-    color: white;
+    color: rgb(196, 196, 196);
 }
 
 #navbar {
@@ -28,30 +28,51 @@ body {
 }
 
 #services-section {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 #projects-section {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 #contact-section {
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 @media screen and (max-width: 575px) {
-    body {
+    #about-section {
         font-size: 0.8rem;
+    }
+
+    #services-section {
+        font-size: 0.8rem;
+    }
+    #projects-section {
+        font-size: 1rem;
     }
 }
 
 @media screen and (min-width: 576px) {
-    body {
+    #about-section {
+        font-size: 1rem;
+    }
+
+    #services-section {
+        font-size: 1rem;
+    }
+    #projects-section {
         font-size: 1rem;
     }
 }
 
 @media screen and (min-width: 768px) {
-    body {
+    #about-section {
         font-size: 1.2rem;
+    }
+
+    #services-section {
+        font-size: 1rem;
+    }
+    #projects-section {
+        font-size: 1rem;
     }
 }

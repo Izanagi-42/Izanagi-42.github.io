@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;300;400;500;600;700;800&display=swap");
 
 body {
-    background-color: #170930;
+    background-color: #0f0930;
     font-family: "JetBrains Mono", monospace;
     color: rgb(196, 196, 196);
 }
@@ -23,17 +23,30 @@ body {
     margin-top: 100px;
 }
 
+.about-header {
+    margin-bottom: 30px;
+}
+
 #name {
     color: #ffca2c;
 }
 
 #services-section {
-    padding-top: 100px;
+    padding-top: 80px;
+}
+
+.services-header {
+    margin-bottom: 30px;
 }
 
 #projects-section {
-    padding-top: 100px;
+    padding-top: 80px;
 }
+
+.projects-header {
+    margin-bottom: 30px;
+}
+
 #contact-section {
     padding-top: 100px;
 }
@@ -48,6 +61,9 @@ body {
     }
     #projects-section {
         font-size: 1rem;
+    }
+    #copyright {
+        font-size: 0.8rem;
     }
 }
 
